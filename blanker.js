@@ -10,6 +10,6 @@
                 newWindow.document.write('</body></html>');
                 newWindow.document.close(); // Close the document for writing
             } else {
-                alert('Unable to open a new window. Please check your browser settings.');
+                alert('Unable to open a new window. Turn on popups.');
             }
         }
