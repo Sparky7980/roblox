@@ -5,7 +5,7 @@
             // Check if the new window is successfully opened
             if (newWindow) {
                 // Write custom code to the new window
-                newWindow.document.write('<html><head><title>Essay</title></head><body>');
+                newWindow.document.write('<html><head> <title>Khan Academy | Free Online Courses, Lessons &amp; Practice</title></head><body>');
                 newWindow.document.write('<iframe allowfullscreen src="https://you-are-too-slow.onrender.com/" style="position:absolute; top:0px; left:0px; width:100%; height:100%; border: none; overflow: hidden;"></iframe>');
                 newWindow.document.write('</body></html>');
                 newWindow.document.close(); // Close the document for writing
