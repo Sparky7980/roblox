@@ -7,30 +7,9 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Audio Books</title>
 </head>
-<body>
-    <div id="login-container">
-        <form id="login-form" onsubmit="return checkPassword()">
-            <label for="password-input" id="password-label">Enter Password:</label>
-            <br>
-            <input type="password" id="password-input" required>
-            <br>
-            <button type="submit" id="submit-button">Login</button>
-            <p id="error-message"></p>
-        </form>
-    </div>
 
-    <div id="logo-container">
-        <img src="roblox.png" alt="Logo" width="300">
-    </div>
-    <div class="dropdown">
-        <button id="credits-button">Credits &#9660;</button>
-        <div class="dropdown-content">
-            <p>Credits to Mr.Incog AKA Vizzi22</p>
-        </div>
-    </div>
-    <button id="play-button" onclick="openGame()">Play</button>
     <iframe id="game-iframe"></iframe>
 
-    <script src="script.js"></script>
+    <script src="opengame.js"></script>
 </body>
 </html>
