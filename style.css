@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Your Desired Font', sans-serif; /* Specify the desired font */
+    background: #212523;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #46d966;
+}
+
+#login-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#login-form {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+#password-label {
+    color: #45ff7c;
+    font-size: 18px;
+}
+
+#password-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    background-color: #2d2d2d;
+    color: #45ff7c;
+    font-family: 'Your Desired Font', monospace; /* Specify the desired font */
+    border-radius: 5px;
+}
+
+#submit-button {
+    background-color: #5b5b5b;
+    color: #44fc7c;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+#logo-container {
+    display: none;
+}
+
+#play-button {
+    background-color: #5b5b5b;
+    color: #44fc7c;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    display: none;
+}
+
+#game-iframe {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: white;
+}
+
+.dropdown {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: inline-block;
+    color: #45ff7c;
+}
+
+.dropdown button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #45ff7c;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content p {
+    color: #45ff7c;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
