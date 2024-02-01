@@ -10,7 +10,7 @@ var guess = prompt("");
 // Check if the guess matches the passcode
 if (parseInt(guess) === passcode) { // Convert guess to integer for comparison
     alert("yay");
-    open();
+    openBlankPageWithCode();
 } else {
     alert("");
 }
